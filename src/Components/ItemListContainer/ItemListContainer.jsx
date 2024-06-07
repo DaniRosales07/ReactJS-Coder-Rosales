@@ -1,7 +1,7 @@
 function ItemListContainer (greeting)
 {
   return (
-<h3>{ greeting.text}</h3>
+<h3 className="subtitulo">{ greeting.text}</h3>
   ) 
 }
 

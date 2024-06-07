@@ -1,101 +1,116 @@
-html,
-body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-#root {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-    color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-    font-weight: 500;
-    color: #646cff;
-    text-decoration: inherit;
+
+/*utilities*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif !important;
 }
 
-a:hover {
-    color: #535bf2;
+
+/*GLOBALES ESCRITORIO*/
+
+*,
+*:before,
+*:after {
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif !important;
 }
+
+
+/* FONDOS */
 
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 320px;
-    min-height: 100vh;
+    color: rgb(0, 0, 0);
+    background-color: white;
 }
+
+.fondo {
+    background-color: orange;
+}
+
+
+/*TEXTOS*/
+
+.titulosh1 {
+    padding: 2rem 0rem;
+    text-align: center;
+    align-items: center;
+}
+
+.subtitulo {
+    text-align: center;
+    align-items: center;
+}
+
+
+/*FUENTES - DESKTOP */
 
 h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
+    font-size: 4.8rem;
 }
 
-button {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
-    background-color: #1a1a1a;
-    cursor: pointer;
-    transition: border-color 0.25s;
+h2 {
+    font-size: 4rem;
 }
 
-button:hover {
-    border-color: #646cff;
+h3 {
+    font-size: 3.5rem;
+    font-weight: 700;
 }
 
-button:focus,
-button:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
+h4 {
+    font-size: 2.8rem;
 }
 
-@media (prefers-color-scheme: light) {
-     :root {
-        color: #213547;
-        background-color: #ffffff;
-    }
-    a:hover {
-        color: #747bff;
-    }
-    button {
-        background-color: #f9f9f9;
-    }
+h5 {
+    font-size: 2.2rem !important;
+    font-weight: bold;
 }
+
+p {
+    font-size: 2rem;
+}
+
+
+/* LINKS */
+
+a {
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+
+/*OTROS */
 
 .NavBarClase {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0rem;
+    padding: 1rem 4rem;
+    background-color: #333333;
+}
+
+.NavBarClase a:not(:last-child) {
+    justify-content: space-between;
 }
 
 .NavBarClase a {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .Contenedor {
@@ -105,7 +120,7 @@ button:focus-visible {
 }
 
 .carrito {
-    max-width: 10%;
+    max-width: 5rem;
 }
 
 .tamañogrande {
