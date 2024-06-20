@@ -1,0 +1,29 @@
+/*utilities*/
+
+@import './scss/utilities-scss/reset';
+@import 'scss/utilities-scss/mixin';
+@import 'scss/utilities-scss/lists';
+@import 'scss/utilities-scss/variables';
+@import 'scss/utilities-scss/globales';
+
+/*layout*/
+
+@import 'scss/layout-scss/header';
+@import 'scss/layout-scss/footer';
+
+/*componentes*/
+
+@import 'scss/components-scss/botones';
+@import 'scss/components-scss/cards';
+@import 'scss/components-scss/carrito';
+@import 'scss/components-scss/grids';
+@import 'scss/components-scss/carrousel';
+@import 'scss/components-scss/modal';
+
+/*pages*/
+
+@import 'scss/pages-scss/pagesstyles';
+
+/*mediaqueries*/
+
+@import 'scss/utilities-scss/mediaqueries';

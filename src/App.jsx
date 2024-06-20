@@ -1,15 +1,22 @@
 import Header from "./Components/Header.jsx";
 import Mainn from "./Components/Mainn.jsx";
 import Footer from "./Components/Footer.jsx";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Link, NavLink, Route, Routes} from "react-router-dom"
 
 function App ()
 {
   return (
   <>
+    <BrowserRouter>
   <Header/>
+
+
+
   <Mainn/>
+
   <Footer/>
+  </BrowserRouter>
   </>
   )
 }

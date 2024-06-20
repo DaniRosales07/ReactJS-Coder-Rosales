@@ -1,0 +1,43 @@
+.modal-content {
+    background-color: $color-secundario;
+    color: $color-primario;
+    padding: 1rem;
+    align-items: center;
+}
+
+.modal-content img {
+    width: 70%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+
+.modal-title {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.btn-close {
+    background-color: white;
+    width: 10em !important;
+    height: 10em !important;
+    color: black;
+    margin: 0rem 1rem !important;
+    padding: 0;
+    .img {
+        width: 10em !important;
+        height: 10em !important;
+    }
+}
+
+.btn-primary {
+    width: 7em;
+    height: 4em;
+    font-size: 10em;
+}
+
+.btn-secondary {
+    width: 7em;
+    height: 4em;
+    font-size: 10em;
+}

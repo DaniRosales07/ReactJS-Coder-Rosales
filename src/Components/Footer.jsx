@@ -1,10 +1,11 @@
-import NavBar from "./NavBar/NavBar";
 function Footer ()
 {
   return (
-  <footer>
-  <NavBar fut={true}/>
-  </footer>
+<footer>
+<div className="footer">
+  <h4>©2024 Trabajos en Mendoza. Todos los derechos reservados</h4>
+</div>
+</footer>
   )
 }
 

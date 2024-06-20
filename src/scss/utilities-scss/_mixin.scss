@@ -1,0 +1,29 @@
+@mixin botones ($color, $font-weight, $background-color, $border, $padding) {
+    color: $color;
+    font-weight: $font-weight;
+    background-color: $background-color;
+    border: $border;
+    padding: $padding;
+}
+
+@mixin cards ($padding, $background-color, $color, $max-width, $border-radius, $margin) {
+    padding: $padding;
+    background-color: $background-color;
+    color: $color;
+    max-width: $max-width;
+    border-radius: $border-radius;
+    margin: $margin;
+}
+
+@mixin flexs ($display, $flex-direction, $align-items, $justify-content, $text-align) {
+    display: $display;
+    flex-direction: $flex-direction;
+    align-items: $align-items;
+    justify-content: $justify-content;
+    text-align: $text-align;
+}
+
+@mixin grids ($display, $gridtemplatescolumns) {
+    display: $display;
+    grid-template-columns: $gridtemplatescolumns;
+}

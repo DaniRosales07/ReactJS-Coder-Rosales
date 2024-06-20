@@ -1,0 +1,25 @@
+/*BOTONES*/
+
+.boton-azul {
+    @include botones ($color-primario, bold, $color-secundario, 10px, 1rem);
+    box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
+    transition: transform 0.3s;
+}
+
+.BotonesP {
+    @include botones ($color-secundario, bold, $color-primario, 2px solid $color-secundario, 0.2rem 1rem);
+    border-radius: 10px;
+    box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
+    transition: transform 0.3s;
+    text-align: center;
+    align-items: center;
+}
+
+.BotonesS {
+    @include botones ($color-primario, bold, $color-secundario, 2px solid $color-primario, 0.5rem 2rem);
+    border-radius: 10px;
+    box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
+    transition: transform 0.3s;
+    text-align: center;
+    align-items: center;
+}

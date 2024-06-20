@@ -1,26 +1,27 @@
 import CartWidget from "../CartWidget/CartWidget";
 
-function NavBar (props)
-{
-  
-    if (props.fut == true) {
-      return (
-<nav className= "NavBarClase">
-<a href="#">Devoluciones</a>
-<a href="#">FAQ</a>
-<a href="#">Contacto</a>
+function NavBar (props) {
+  return (
+    <nav className=" menu-escritorio navbar bg-primary" data-bs-theme="dark">
+    <ul className="nav nav-pills">
+        <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="/" title="Inicio">Inicio</a>
+        </li>
+        <li className="nav-item">
+            <a className="nav-link" href="/section6" title="Diseños">FormularioCV</a>
+        </li>
+        <li className="nav-item">
+            <a className="nav-link" href="./pages/contactos.html" title="Contacto">Contacto</a>
+        </li>
+        <li className="nav-item">
+            <a className="nav-link" href="#" title="Compras"> <CartWidget/> </a>
+        </li>
+    </ul>
 </nav>
   )
-} else {
-  return (
-    <nav className= "NavBarClase">
-    <a href="#">Inicio</a>
-    <a href="#">Productos</a>
-    <a href="#">Contacto</a>
-    <CartWidget/>
-    </nav>
-      )
-}
 }
 
 export default NavBar;
+
+
+

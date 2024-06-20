@@ -1,0 +1,21 @@
+/*CARDS*/
+
+.card-principal {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    background-color: $color-secundario;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+    color: $color-primario;
+    margin: 1rem;
+}
+
+.imagen-redonda {
+    width: 70%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
